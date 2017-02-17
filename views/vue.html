@@ -1,0 +1,16 @@
+{% extends 'common/layout.html' %}
+
+{% block head %}
+    <title>Hot Front-End</title>
+    {% if not isOnCompile %}
+        <link rel="stylesheet" href="{{publicPath}}{{manifest['client.css']}}">
+    {% endif %}
+{% endblock %}
+
+{% block body %}
+
+    {{ vueString | safe }}
+    
+    <script src="{{publicPath}}{{manifest['client.js']}}"></script>
+
+{% endblock %}

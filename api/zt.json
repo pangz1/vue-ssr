@@ -1,0 +1,11 @@
+{
+    "alias": "demo",
+    "ztData": {
+        "siteID": "111",
+        "siteAlias": "demo",
+        "siteName": "站点名称",
+        "metaKeywords": "站点名称关键字",
+        "metaDescription": "站点描述",
+        "pageTitle": "demo站点"
+    }
+}

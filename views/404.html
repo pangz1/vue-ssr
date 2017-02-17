@@ -1,0 +1,23 @@
+{% extends 'common/layout.html' %}
+
+{% block title %}404{% endblock %}
+
+{% block head %}
+    <title>404</title>
+    <style>
+        body {padding: 50px 100px;font-family: -apple-system, "PingFang SC", "Helvetica Neue", "STHeiti", "Microsoft Yahei", "Tahoma", "Simsun", sans-serif;font-size: 14px;}
+        h1,h2 {margin: 0;padding: 10px 0;}
+        h1 {font-size: 2rem;}
+        h2 {font-size: 1.2rem;color: #aaa;font-weight: 100;}
+        pre {font-size: .8rem;white-space: pre-line;text-indent: 2rem;margin-left: 2rem;}
+    </style>
+{% endblock %}
+
+{% block body %}
+
+    <div id="error">
+        <h1>Status: 404</h1>
+        <h2>We can't find the page you're lookin' for</h2>
+
+    </div>
+{% endblock %}

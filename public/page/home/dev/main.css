@@ -1,0 +1,212 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset,
+img {
+  border: 0; }
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol,
+ul {
+  list-style: none; }
+
+caption,
+th {
+  text-align: left; }
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, STHeiTi, 'Microsoft Yahei', sans-serif;
+  font-size: 1.4rem;
+  background-color: #FFF;
+  overflow-x: hidden;
+  position: relative; }
+
+a {
+  color: #333; }
+  a:active {
+    color: #44b336; }
+
+::-webkit-scrollbar {
+  width: 1px; }
+
+.cf:before, .l-row:before, .cf:after, .l-row:after {
+  content: '';
+  display: table; }
+
+.cf:after, .l-row:after {
+  clear: both; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.por {
+  position: relative; }
+
+.poa {
+  position: absolute; }
+
+.overscroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+.layout {
+  width: 100%; }
+
+.l-row {
+  width: 100%; }
+
+.m-block {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 0 1rem 0; }
+  .m-block img {
+    display: block; }
+
+[class*="l-col-"] {
+  width: 100%;
+  float: left; }
+
+@media screen and (min-width: 720px) {
+  .layout {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none; }
+
+.btn-green {
+  background-color: #44b336;
+  color: #fff; }
+  .btn-green:active {
+    color: #fff;
+    background-color: #33a225; }
+
+.btn-orange {
+  background-color: #f50;
+  color: #fff; }
+  .btn-orange:active {
+    color: #fff;
+    background-color: #ee4400; }
+
+.btn-disabled {
+  background-color: #ddd;
+  color: #aaa; }
+
+/*
+    common style modules
+ */
+body {
+  background-color: #f6f6f6; }
+
+a {
+  text-decoration: none; }
+
+header {
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: #11ba55;
+  color: #FFF; }
+
+.hot-banner {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem; }
+
+.userinfo {
+  padding-top: 2rem;
+  text-align: center; }
+  .userinfo img {
+    display: inline-block;
+    height: 100px;
+    border-radius: 50px; }
+
+.head-banner {
+  height: 20rem;
+  background-color: #2e8c4b; }
+  .head-banner img {
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+
+.example {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  background: url(http://devres.hjfile.cn/pt//home/dev/logo.png?939166023d7e3c712ca4156f2bdce892) no-repeat;
+  background-size: 100%; }
+
+.code p {
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  font-size: 1.6rem; }
+
+.code pre {
+  background-color: #f6f6f6;
+  padding: 2rem 0; }
+
+.footer {
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666; }
+
+/*# sourceMappingURL=main.css.map*/

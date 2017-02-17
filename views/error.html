@@ -1,0 +1,29 @@
+{% extends 'common/layout.html' %}
+
+{% block head %}
+    <title>500</title>
+    <style>
+        body {padding: 50px 100px;font-family: -apple-system, "PingFang SC", "Helvetica Neue", "STHeiti", "Microsoft Yahei", "Tahoma", "Simsun", sans-serif;font-size: 14px;}
+        h1,h2 {margin: 0;padding: 10px 0;}
+        h1 {font-size: 2rem;}
+        h2 {font-size: 1.2rem;color: #aaa;font-weight: 100;}
+        pre {font-size: .8rem;white-space: pre-line;text-indent: 2rem;margin-left: 2rem;}
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div id="error">
+        <h1>Error: {{status}}</h1>
+        <p>Looks like something broke!</p>
+        {% if env == 'local' %}
+            <h2>Message:</h2>
+            <pre>
+                <code> {{error}} </code>
+            </pre>
+            <h2>Stack:</h2>
+            <pre>
+                <code> {{stack}} </code>
+            </pre>
+        {% endif %}
+    </div>
+{% endblock %}
